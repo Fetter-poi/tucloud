@@ -10,9 +10,9 @@ var FILE = require('fs');
 var mime = require('mime');
 var path = require('path');
 var events_1 = require('events');
-var CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
-var CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-var REDIRECT_URL = process.env.GOOGLE_REDIRECT_URL;
+var CLIENT_ID = '275285352333-qu6qbt7vo8ohf8mb5v1a6s4r09dk8jg8.apps.googleusercontent.com';
+var CLIENT_SECRET = 'DZ3Pyz5DFrU4M7W6AjSZyT-_';
+var REDIRECT_URL = 'https://tucloud.dokkurapp.com/oauthCallback';
 var SCOPES = [
     'https://www.googleapis.com/auth/plus.me',
     'https://www.googleapis.com/auth/drive'
